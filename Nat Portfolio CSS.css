@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: Product Sans;
     src: url(Product Sans Regular.ttf);
@@ -12,25 +13,52 @@ a {
     text-decoration: none;
 }
 
-#nav{
+#main-nav{
+    width: 98%;
     margin-top: 25px;
     border: 3px solid #00BCD4;
     border-radius: 13px;
 }
-#nav li {
+
+#main-nav li {
     list-style-type: none; 
     color: #00BCD4;
     font-size: 35px;
     letter-spacing: 6px;
 }
 
-
-#nav :hover{
+#main-nav a :hover{
     color: rgb(177, 110, 117);
     letter-spacing: 9px !important;
 }
+.drawer{
+    height: 50px;
+    width: 50px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    position:fixed;
+    bottom:25px;
+    right: 25px;
+}
+
+.drawer .collapsible{
+    color: white;
+    position: relative;
+    bottom: -8px;
+    background: none;
+    shape-rendering: none;
+}
+.drawer .collapsible:hover{
+    color: rgb(177, 110, 117);
+}
+.content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
 #aboutme {
-    margin-top: 25px;
     border: 3px solid #00BCD4;
     border-radius: 13px;
     color: #00BCD4;
