@@ -113,7 +113,9 @@ a {
     padding-right: 100px;
     padding-bottom: 25px;
 }
-
+#experience img{
+    padding-bottom: 25px;
+}
 #homebar{
     height: 50px;
     padding-bottom: none;
