@@ -1,4 +1,12 @@
-
+@media only screen and (max-width: 600px) {
+    p{
+       text-align: left !important;
+       font-size: 14px !important;
+    }
+    #projects{
+        font-size: 14px;
+    }
+}
 @font-face{
     font-family: Product Sans;
     src: url(Product Sans Regular.ttf);
@@ -86,8 +94,8 @@ a {
 }
 
 #contactme{
-    margin-left: 225px;
-    margin-right: 225px;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 25px;
     margin-bottom: 45px;
     border: 3px double #00BCD4;
@@ -114,7 +122,7 @@ a {
     padding-bottom: 25px;
 }
 #experience img{
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 #homebar{
     height: 50px;
