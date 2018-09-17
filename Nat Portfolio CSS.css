@@ -130,6 +130,7 @@ a {
     height: 50px;
     padding-bottom: none;
     border: 3px double rgb(177, 110, 117);
+    border-radius: 13px;
 }
 #homebar a{
     position: relative;
