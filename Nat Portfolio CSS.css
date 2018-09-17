@@ -127,8 +127,7 @@ a {
     padding-bottom: 30px;
 }
 #experience .competitions{
-    list-style-type: inside;
-    text-align: left !important;
+    list-style-position: inside;
 }
 #homebar{
     height: 50px;
