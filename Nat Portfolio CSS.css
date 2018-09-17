@@ -96,8 +96,8 @@ a {
 }
 
 #contactme{
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 25px;
     margin-bottom: 45px;
     border: 3px double #00BCD4;
@@ -125,12 +125,15 @@ a {
 }
 #experience img{
     padding-bottom: 30px;
+    padding-top: 25px;
 }
 #experience .competitions{
     list-style-position: inside;
-    font-size: 20px;
-    position: relative;
+    font-size: 14px;
+    position: relative !important;
     right: 30px;
+    text-align: left;
+    left: 525px;
 }
 #homebar{
     height: 50px;
@@ -140,6 +143,8 @@ a {
 }
 #homebar a{
     color: #00BCD4;
+    position: relative;
+    bottom: 10px;
 }
 #homebar a :hover {
     color: rgb(177, 110, 117);
