@@ -138,8 +138,6 @@ a {
     border-radius: 13px;
 }
 #homebar a{
-    position: relative;
-    bottom: 15px;
     color: #00BCD4;
 }
 #homebar a :hover {
