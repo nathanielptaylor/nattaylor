@@ -126,6 +126,10 @@ a {
 #experience img{
     padding-bottom: 30px;
 }
+#experience .competitions{
+    list-style-type: inside;
+    text-align: left !important;
+}
 #homebar{
     height: 50px;
     padding-bottom: none;
