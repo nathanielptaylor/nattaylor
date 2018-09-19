@@ -9,7 +9,7 @@
 }
 @font-face{
     font-family: 'Product Sans';
-    src: url(nattaylor/Product Sans Regular.ttf);
+    src: url('nattaylor/Product Sans Regular.ttf');
 }
 *{
     font-family: 'Product Sans';
