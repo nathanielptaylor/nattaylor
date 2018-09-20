@@ -6,6 +6,11 @@
     #projects{
         font-size: 14px;
     }
+    .dropup{
+        height: 90px;
+        width: 90px;
+    }
+    
 }
 @font-face{
     font-family: 'Product Sans';
