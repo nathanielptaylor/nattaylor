@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    
+}
+.back{
+    text-align: left;
+    color: #00BCD4;
+    text-decoration: none;
+}
+.back:hover{
+    color: rgb(177,110,117);
+
+}
+.main ul{
+    list-style-type: inside;
+    text-align: left !important;
+    position: relative;
+    left: 35%;
+}
