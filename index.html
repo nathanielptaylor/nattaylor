@@ -4,36 +4,29 @@
     <title>Nat Taylor</title>
     <link rel="stylesheet" type="text/css" href="Nat Portfolio CSS.css">
     <script type="text/javascript" src="NatPortfolioJavascript.js"></script>
-    </head>
-<body>
+</head>
+<body class = 'main'>
 <div id = 'nav'>
     <header>
         <nav id = 'main-nav'>
             <ul id = 'nav list'>
-                <a href = '#aboutme'><li>About Me</li></a>
+                <a onclick = 'aboutmescroll()'><li>About Me</li></a>
                 <br>
-                <a href = '#projects'><li>Projects</li></a>
+                <a onclick = 'projectsscroll()'><li>Projects</li></a>
                 <br>
-                <a href = '#experience'><li>Experience</li></a>
+                <a onclick = 'experiencescroll()'><li>Experience</li></a>
                 <br>
-                <a href = '#contactme'><li>Contact Me</li></a>
+                <a onclick = 'contactscroll()'><li>Contact Me</li></a>
                 <br>
             </ul>
-            <div class= 'dropup'>
-                <button class = 'dropbtn'>&#43</button>
-                <div class = 'dropup-content'>
-                    <a href ='#aboutme'>About Me / Home</a>
-                    <a href = '#projects'>Projects</a>
-                    <a href = '#experience'>Experience</a>
-                    <a href = '#contactme'>Contact Me</a>
-                </div>
             </div>
-            
-            
-
         </nav>
     </header>
 </div>
+<div class= 'weblink'>
+    <a href = 'buyawebsite.html'><h6>Need a<br> Website?</h6></a>
+</div>
+
 <br>
 <div id = 'aboutme'>
     <h1>About Me</h1>
@@ -73,6 +66,17 @@
               <li>C3 Web Development Competition</li>
               <li>HackGSU</li>
     </ul>
+    <hr style = 'width: 75%'>
+    <h2>Languages, frameworks, APIs, etc.</h2>
+    <ul class = 'competitions'>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Full stack</li>
+        <li>Node.js</li>
+        <li>PRAW</li>
+        <li>Tweepy</li>
+        
+    </ul>
     <img src = 'circuitrunnerslogo.jpg'>
 </div>
 <div id = 'contactme'>
@@ -84,7 +88,7 @@
 </div>
 <footer>
     <div id = 'homebar'>
-        <a href = '#nav'><h1>// Back to Top //</h1></a>
+        <a onclick = 'scrolltotop()'><h1>// Back to Top //</h1></a>
 
     </div>
 </footer>
